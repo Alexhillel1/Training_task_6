@@ -1,0 +1,118 @@
+body {
+  font-family: 'Manrope', sans-serif;
+  font-size: 14px;
+  color: #18191f;
+}
+
+.container {
+  width: 1140px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.header {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  margin-bottom: 196px;
+  border-bottom: 1px solid #a6a6a6;
+}
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
+.header-logo {
+  margin-right: 32px;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+}
+.nav-item:not(:last-child) {
+  margin-right: 32px;
+}
+
+.header-btn {
+  display: flex;
+  margin-left: auto;
+}
+
+.btn-img {
+  display: block;
+}
+
+.btn-img:first-child {
+  margin-right: 12px;
+}
+
+.haeder-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 196px;
+}
+.header-content {
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.header-content h1 {
+  line-height: 1.36;
+  font-weight: 800;
+  font-size: 72px;
+  margin-bottom: 16px;
+}
+
+.header-content p {
+  max-width: 540px;
+  line-height: 1.77;
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 32px;
+}
+
+.header-content-btn a {
+  display: inline-block;
+  padding: 16px 35px;
+  background-color: #8c30f5;
+  border-radius: 8px;
+
+  line-height: 1.5;
+  font-weight: 700;
+  font-size: 20px;
+  color: #fff;
+}
+
+.header-content-btn a:hover {
+  background-color: #fff;
+  border: 1px solid #8c30f5;
+  color: #000;
+}
+
+.footer {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  background-color: #0b0d17;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+}
+
+.privat-police p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #d9dbe1;
+}
+
+.footer-icon {
+  margin-left: auto;
+}
+
+.footer-icon a:not(:last-child) {
+  margin-right: 16px;
+}
